@@ -1,0 +1,17 @@
+# Tested with Python 3.11 on Windows (RTX 2050, CUDA 11.8).
+# Install torch/torchvision first from the CUDA index:
+#   pip install torch==2.7.1 torchvision==0.22.1 --index-url https://download.pytorch.org/whl/cu118
+torch==2.7.1
+torchvision==0.22.1
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+scikit-learn==1.7.2
+matplotlib==3.10.5
+tqdm==4.67.1
+Pillow==11.3.0
+
+# Optional: only for the retrieval demo
+# Flask==3.0.0
+# Optional: only needed by losses/distributional_quantization_losses.py (not used by the main scripts)
+# lap==0.5.12
